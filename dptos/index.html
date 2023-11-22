@@ -13,7 +13,7 @@
       <meta name="description" content="">
       <meta name="author" content="">
       <!-- bootstrap css -->
-      <link rel="stylesheet" href="/css/bootstrap.min.css">
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
       <!-- style css -->
       <link rel="stylesheet" href="/css/style.css">
       <!-- Responsive-->
@@ -119,17 +119,7 @@
              color: #666;
          }
  
-         .row {
-             display: flex;
-             flex-wrap: wrap;
-             justify-content: center;
-         }
- 
-         .col-md-4 {
-             flex: 0 0 33.33%;
-             max-width: 33.33%;
-             padding: 15px;
-         }
+
  
          .gallery_img {
              overflow: hidden;
@@ -148,7 +138,24 @@
      </style>
  </head>
  <body>
- 
+    <div class="modal fade" id="ata1" tabindex="-1" aria-labelledby="ata1" aria-hidden="true">
+        <div class="modal-dialog modal-fullscreen">
+          <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalToggleLabel2">Modal 2</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+            <div class="modal-body">
+              <div class="modal-img" style="text-align: center;">
+              <img src="/images/ata.jpg"  ">
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      
      <div class="gallery">
          <div class="container">
              <div class="titlepage">
@@ -158,30 +165,30 @@
  
              <div class="row">
                  <div class="col-md-4">
-                     <div class="gallery_img" onclick="openImage('images/ata.jpg')">
-                         <figure><img src="/images/ata.jpg" alt="#"/></figure>
+                     <div class="gallery_img">
+                         <figure><a type="button" data-bs-toggle="modal" data-bs-target="#ata1"><img src="/images/ata.jpg" alt="#" /></a></figure>
                      </div>
                  </div>
- 
+
                  <!-- Repite para otras imágenes -->
                  <div class="col-md-4">
-                     <div class="gallery_img" onclick="openImage('images/ata1.jpg')">
+                     <div class="gallery_img"
                          <figure><img src="/images/ata1.jpg" alt="#"/></figure>
                      </div>
                  </div>
  
                  <div class="col-md-4">
-                     <div class="gallery_img" onclick="openImage('images/ata1 (2).jpg')">
+                     <div class="gallery_img">
                          <figure><img src="/images/ata1 (2).jpg" alt="#"/></figure>
                      </div>
                  </div>
                  <div class="col-md-4">
-                    <div class="gallery_img" onclick="openImage('images/ata2.jpg')">
+                    <div class="gallery_img">
                         <figure><img src="/images/ata2.jpg" alt="#"/></figure>
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="gallery_img" onclick="openImage('images/ata2 (2).jpg')">
+                    <div class="gallery_img">
                         <figure><img src="/images/ata2 (2).jpg" alt="#"/></figure>
                     </div>
                 </div>
@@ -200,7 +207,9 @@
       <!-- end deptos -->
       <!-- Javascript files-->
       <script src="/js/jquery.min.js"></script>
-      <script src="/js/bootstrap.bundle.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
       <script src="/js/jquery-3.0.0.min.js"></script>
       <!-- sidebar -->
       <script src="/js/jquery.mCustomScrollbar.concat.min.js"></script>
