@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="es">
+   <head>
+      <!-- basic -->
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <!-- mobile metas -->
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+      <!-- site metas -->
+      <title>Edificio Ataraxia</title>
+      <meta name="keywords" content="">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <!-- bootstrap css -->
+      <link rel="stylesheet" href="/css/bootstrap.min.css">
+      <!-- style css -->
+      <link rel="stylesheet" href="/css/style.css">
+      <!-- Responsive-->
+      <link rel="stylesheet" href="/css/responsive.css">
+      <!-- fevicon -->
+      <link rel="icon" href="/images/fevicon.png" type="image/gif" />
+      <!-- Scrollbar Custom CSS -->
+      <link rel="stylesheet" href="/css/jquery.mCustomScrollbar.min.css">
+      <!-- Tweaks for older IEs-->
+      <link rel="stylesheet" href="/https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+      <link rel="stylesheet" href="/https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" />
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+    
+      
+      <style>
+    
+        .property-container {
+          max-width: 800px;
+          margin: 20px auto;
+        }
+    
+        .property-box {
+          display: flex;
+          background-color: #fff;
+          border: 1px solid #ccc;
+          border-radius: 10px;
+          overflow: hidden;
+        }
+    
+        .property-info {
+          flex: 1;
+          padding: 20px;
+        }
+    
+        .property-info h2::after {
+      content: "";
+      display: block;
+      height: 2px;
+      width: 300px;
+      background-color: #4caf50; /* Color verde */
+      position: absolute;
+      bottom: 5px; /* Distancia desde la parte inferior del título */
+      left: 35%; /* Posiciona el separador en el centro */
+      transform: translateX(-50%); /* Ajusta para centrar el separador */
+    }
+    
+        .property-image {
+          flex: 1;
+          max-height: 300px;
+          object-fit: cover;
+          border-top-right-radius: 10px;
+          border-bottom-right-radius: 10px;
+        }
+    
+        .contact-button {
+          background-color: #4caf50;
+          color: #fff;
+          padding: 10px 20px;
+          text-decoration: none;
+          display: inline-block;
+          border-radius: 5px;
+          margin-top: 10px;
+        }
+    
+        @media (max-width: 600px) {
+          .property-box {
+            flex-direction: column;
+          }
+    
+          .property-image,
+          .property-info {
+            border-radius: 0;
+          }
+        }
+      </style>
+
+   </head>
+   <!-- body -->
+   <body class="main-layout in_page">
+      <!-- loader  -->
+      <div class="loader_bg">
+         <div class="loader"><img src="/images/loading.gif" alt="#"/></div>
+      </div>
+      <!-- end loader -->
+      <!-- header -->
+      <header>
+         <!-- header inner -->
+         <div class="header">
+            <div class="container">
+               <div class="row">
+                  <div class="col-md-12 col-sm-3 col logo_section">
+                     <div class="full">
+                        <div class="center-desk">
+                           <div class="logo">
+                              <a href="/index.html"><img src="/images/logo.png" alt="#" /></a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-md-10 offset-md-1">
+                     <nav class="navigation navbar navbar-expand-md navbar-dark ">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarsExample04">
+                           <ul class="navbar-nav mr-auto">
+                              <li class="nav-item ">
+                                 <a class="nav-link" href="https://whitex45.github.io">Inicio</a>
+                              </li>
+                              <li class="nav-item ">
+                                 <a class="nav-link" href="/info/">Acerca de</a>
+                              </li>
+                              <li class="nav-item ">
+                                 <a class="nav-link active" href="/departamentos/">Departamentos</a>
+                              </li>
+                              <li class="nav-item ">
+                                 <a class="nav-link" href="/galeria/">Galeria</a>
+                              </li>
+                              <li class="nav-item">
+                                 <a class="nav-link" href="/contacto/">Contacto</a>
+                              </li>
+                           </ul>
+                        </div>
+                     </nav>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </header>
+      <!-- end header inner -->
+      <!-- end header -->
+      <!-- gallery -->
+      <div class="property-container">
+        <div class="property-box">
+          <div class="property-info">
+            <h2>1 PISO "A" - Torre 1</h2>
+            <p><strong>Dirección:</strong> Calle Principal #123</p>
+            <p><strong>Precio:</strong> $200,000</p>
+            <p><strong>Descripción:</strong> Amplio departamento con vistas increíbles. 3 habitaciones, 2 baños, cocina moderna, etc.</p>
+            <p><strong>Contacto:</strong> info@tuempresa.com</p>
+            <a href="#" class="contact-button">Contactar</a>
+          </div>
+          <a data-fancybox="gallery" href="/images/DEPTO 1Ab.jpg">
+            <img class="property-image" src="/images/DEPTO 1Ab.jpg" alt="Imagen del Departamento">
+          </a>
+        </div>
+      </div>
+
+      <div class="property-container">
+        <div class="property-box">
+          <div class="property-info">
+            <h2>1 PISO "B" - Torre 1</h2>
+            <p><strong>Dirección:</strong> Calle Principal #123</p>
+            <p><strong>Precio:</strong> $200,000</p>
+            <p><strong>Descripción:</strong> Amplio departamento con vistas increíbles. 3 habitaciones, 2 baños, cocina moderna, etc.</p>
+            <p><strong>Contacto:</strong> info@tuempresa.com</p>
+            <a href="#" class="contact-button">Contactar</a>
+          </div>
+          <a data-fancybox="gallery" href="/images/DEPTO 1Bb.jpg">
+            <img class="property-image" src="/images/DEPTO 1Bb.jpg" alt="Imagen del Departamento">
+          </a>
+        </div>
+      </div>
+
+      <div class="property-container">
+        <div class="property-box">
+          <div class="property-info">
+            <h2>1 PISO "C" - Torre 1</h2>
+            <p><strong>Dirección:</strong> Calle Principal #123</p>
+            <p><strong>Precio:</strong> $200,000</p>
+            <p><strong>Descripción:</strong> Amplio departamento con vistas increíbles. 3 habitaciones, 2 baños, cocina moderna, etc.</p>
+            <p><strong>Contacto:</strong> info@tuempresa.com</p>
+            <a href="#" class="contact-button">Contactar</a>
+          </div>
+          <a data-fancybox="gallery" href="/images/DEPTO 1Cb.jpg">
+            <img class="property-image" src="/images/DEPTO 1Cb.jpg" alt="Imagen del Departamento">
+          </a>
+        </div>
+      </div>
+
+      <div class="property-container">
+        <div class="property-box">
+          <div class="property-info">
+            <h2>1 PISO "D" - Torre 1</h2>
+            <p><strong>Dirección:</strong> Calle Principal #123</p>
+            <p><strong>Precio:</strong> $200,000</p>
+            <p><strong>Descripción:</strong> Amplio departamento con vistas increíbles. 3 habitaciones, 2 baños, cocina moderna, etc.</p>
+            <p><strong>Contacto:</strong> info@tuempresa.com</p>
+            <a href="#" class="contact-button">Contactar</a>
+          </div>
+          <a data-fancybox="gallery" href="/images/DEPTO 1Db.jpg">
+            <img class="property-image" src="/images/DEPTO 1Db.jpg" alt="Imagen del Departamento">
+          </a>
+        </div>
+      </div>
+
+      <div class="property-container">
+        <div class="property-box">
+          <div class="property-info">
+            <h2>1 PISO "E" - Torre 1</h2>
+            <p><strong>Dirección:</strong> Calle Principal #123</p>
+            <p><strong>Precio:</strong> $200,000</p>
+            <p><strong>Descripción:</strong> Amplio departamento con vistas increíbles. 3 habitaciones, 2 baños, cocina moderna, etc.</p>
+            <p><strong>Contacto:</strong> info@tuempresa.com</p>
+            <a href="#" class="contact-button">Contactar</a>
+          </div>
+          <a data-fancybox="gallery" href="/images/DEPTO 1Eb.jpg">
+            <img class="property-image" src="/images/DEPTO 1Eb.jpg" alt="Imagen del Departamento">
+          </a>
+        </div>
+      </div>
+
+      <div class="property-container">
+        <div class="property-box">
+          <div class="property-info">
+            <h2>1 PISO "F" - Torre 1</h2>
+            <p><strong>Dirección:</strong> Calle Principal #123</p>
+            <p><strong>Precio:</strong> $200,000</p>
+            <p><strong>Descripción:</strong> Amplio departamento con vistas increíbles. 3 habitaciones, 2 baños, cocina moderna, etc.</p>
+            <p><strong>Contacto:</strong> info@tuempresa.com</p>
+            <a href="#" class="contact-button">Contactar</a>
+          </div>
+          <a data-fancybox="gallery" href="/images/DEPTO 1Fb.jpg">
+            <img class="property-image" src="/images/DEPTO 1Fb.jpg" alt="Imagen del Departamento">
+          </a>
+        </div>
+      </div>
+      <!-- end gallery -->
+      <!-- Javascript files-->
+      <script src="/js/jquery.min.js"></script>
+      <script src="/js/bootstrap.bundle.min.js"></script>
+      <script src="/js/jquery-3.0.0.min.js"></script>
+      <!-- sidebar -->
+      <script src="/js/jquery.mCustomScrollbar.concat.min.js"></script>
+      <script src="/js/custom.js"></script>
+   </body>
+</html>
