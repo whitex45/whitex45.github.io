@@ -264,13 +264,13 @@ button {
 .navigation.navbar {
      font-family: 'Open Sans', sans-serif;
      float: right;
-     padding-top: 35px !important;
+     padding-top: 15px !important;
 
 }
 
 .navigation.navbar-dark .navbar-nav .nav-link {
      padding: 0;
-     margin: 0px 40px;
+     margin: 0px 30px;
      color: #333333;
      font-size: 16px;
      line-height: 20px;
@@ -296,12 +296,12 @@ button {
 
 .header {
      width: 100%;
-     padding: 35px 0px 35px 0px;
+     padding: 25px 0px 25px 0px;
      background: #fff;
 }
 
 .logo {
-     text-align: center;
+     text-align: left;
 }
 
 
@@ -314,8 +314,8 @@ button {
      background-position: center;
      background-repeat: no-repeat;
      min-height: 804px;
-     padding-top: 17%;
-     padding-bottom: 150px;
+     padding-top: 21%;
+     padding-bottom: 250px;
 }
 
 .text-bg {
@@ -1159,10 +1159,6 @@ ul.link_menu li a:hover {
 
 /** endinner page css **/
 
-.in_page .header {
-     border-bottom: #3fe43d solid 2px;
-}
-
 
 .circliful .outer {
      fill: transparent;
@@ -1170,9 +1166,6 @@ ul.link_menu li a:hover {
      stroke-width: 19.8;
      stroke-dasharray: 534;
      transition: stroke-dashoffset 1s;
-     -webkit-animation-play-state: running;
-     /* firefox bug fix - won't rotate at 90deg angles */
-     -moz-transform: rotate(-89deg) translateX(-190px);
  }
  
  /* full circle 25 empty 534 */
@@ -1182,9 +1175,7 @@ ul.link_menu li a:hover {
      stroke-width: 20;
      stroke-dasharray: 534;
      transition: stroke-dashoffset 1s;
-     -webkit-animation-play-state: running;
      /* firefox bug fix - won't rotate at 90deg angles */
-     -moz-transform: rotate(-89deg) translateX(-190px);
      stroke-dashoffset: 0;
  }
  
@@ -1214,7 +1205,6 @@ ul.link_menu li a:hover {
      height: 15px;
      border-radius: 2px;
      display: inline-block;
-     float: left;
      padding-top: 3px;
      margin: 2px 5px 0 0;
  }
@@ -1242,7 +1232,6 @@ ul.link_menu li a:hover {
  }
  
  .fancybox-container {
-     -webkit-backface-visibility: hidden;
      height: 100%;
      left: 0;
      outline: none;
@@ -1339,7 +1328,6 @@ ul.link_menu li a:hover {
  }
  
  .fancybox-slide {
-     -webkit-backface-visibility: hidden;
      display: none;
      height: 100%;
      left: 0;
@@ -1400,7 +1388,6 @@ ul.link_menu li a:hover {
  .fancybox-slide--image .fancybox-content {
      -webkit-animation-timing-function: cubic-bezier(.5,0,.14,1);
      animation-timing-function: cubic-bezier(.5,0,.14,1);
-     -webkit-backface-visibility: hidden;
      background: transparent;
      background-repeat: no-repeat;
      background-size: 100% 100%;
