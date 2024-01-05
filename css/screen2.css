@@ -1,0 +1,198 @@
+/* AVANCES */
+
+.textbox {
+    height: 700px;
+}
+
+/* line 12, ../sass/component/_avances.scss */
+.progress {
+    margin-bottom: 5px;
+    height: 20px;
+    display: block;
+
+}
+
+/* line 16, ../sass/component/_avances.scss */
+.progress-bar {
+    width: 0;
+    font-size: 16px;
+    line-height: 20px;
+    float: left;
+    background-color: #337ab7;
+    justify-content: left;
+
+}
+
+/* line 20, ../sass/component/_avances.scss */
+.porcentaje-avance {
+    display: inline-block;
+    width: 50%;
+    margin-left: 5%;
+    text-align: center;
+}
+
+/* line 21, ../sass/component/_avances.scss */
+.foto-avance {
+    display: inline-block;
+    width: 45%;
+    right: 0;
+    margin-top: 10px;
+    text-align: right;
+    max-height: 500px;
+    overflow: hidden;
+}
+
+
+/* DEPARTAMENTOS /*
+
+/* line 11, ../sass/component/_listado.scss */
+.columna-planos {
+    width: 35%;
+    padding-left: 5%;
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle;
+}
+
+/* line 12, ../sass/component/_listado.scss */
+.columna-datos {
+    width: 55%;
+    padding-right: 5%;
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.button {
+    display: inline-block;
+    padding: 0.5em 1.0em;
+    border: 1px solid #AA9F88;;
+    background: none;
+    border-radius: 7px;
+    color: #979797;
+    font-size: 16px;
+    text-shadow: none;
+    cursor: pointer;
+    margin: 10px auto !important;
+}
+
+.button:hover {
+    background-color: #979797;
+    color: #FFF;
+}
+
+.button:active,
+.button.is-checked {
+    background-color: #AA9F88;
+    color: #FFF;
+}
+
+.button.is-checked {
+    color: white;
+    text-shadow: none;
+}
+
+.button:active {
+    
+}
+
+/* ---- button-group ---- */
+
+.button-group:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.button-group .button {
+    float: left;
+    border-radius: 0;
+    margin-left: 0;
+    margin-right: 1px;
+}
+
+.button-group .button:first-child {
+    border-radius: 0.5em 0 0 0.5em;
+}
+
+.button-group .button:last-child {
+    border-radius: 0 0.5em 0.5em 0;
+}
+
+/* ---- isotope ---- */
+
+.grid {}
+
+/* clear fix */
+.grid:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+/* ui group */
+
+.ui-group {
+    display: inline-block;
+    margin: 0px auto;
+    
+}
+
+.ui-group h3 {
+    display: inline-block;
+    font-size: 14px;
+    width: 100%;
+    margin: 5px auto;
+	text-align:left;
+}
+
+.ui-group .button-group {
+    display: inline-block;
+    margin-right: 0px;
+}
+
+/* color-shape */
+
+.color-shape {
+    margin: 5px;
+
+}
+
+
+.grid-item {
+    width: 25%;
+}
+
+.grid-item--width2 {
+    width: 50%;
+}
+
+
+/* VIDEO */
+
+.galeriaVideoContainer {
+    position: relative;
+    opacity: 0.6;
+}
+.galeriaVideoContainer:hover {
+    opacity: 1;
+}
+.galeriaBotonPlay {
+    opacity: 1;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 50%;
+    top: 50%;
+    transform: scale(2.5);
+    margin-left: -20px;
+    margin-top: -20px;
+}
+.galeriaVideoContainer:hover .galeriaBotonPlay{
+    opacity: 0.8;
+}
+
+/* reCaptcha Float */
+.grecaptcha-badge {
+    display:none
+}
