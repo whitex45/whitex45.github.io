@@ -3573,3 +3573,81 @@ div#cloudy-horizontal-container.flex-container .telefono-prefijo{color: #53575A 
 .dabmov, .v1920v{display:none !important;}
 
 }
+
+
+/** contact section **/
+
+.contact {
+  background: url(../images/conatct.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: 90px;
+  padding: 80px 0;
+}
+
+.contact .titlepage {
+  text-align: left;
+}
+
+.contact .titlepage h2 {
+  color: #fff;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.main_form .contactus {
+  border: #fff solid 1px;
+  padding: 0 25px;
+  margin-top: 12px;
+  margin-bottom: 25px;
+  width: 100%;
+  height: 55px;
+  background: #fff;
+  color: #989696;
+  font-size: 18px;
+  font-weight: normal;
+  border-radius: 5px;
+}
+
+.main_form .textarea {
+  border: #fff solid 1px;
+  margin-bottom: 25px;
+  width: 100%;
+  background: #fff;
+  color: #989696;
+  font-size: 18px;
+  font-weight: normal;
+  padding: 35px 15px 0 15px;
+  height: 167px;
+  border-radius: 5px;
+}
+
+.main_form .send_btn {
+  font-size: 22px;
+  transition: ease-in all 0.5s;
+  background-color: rgb(107, 107, 107);
+  border: #fff solid 3px;
+  text-transform: uppercase;
+  color: #fff;
+  padding: 15px 0px;
+  max-width: 200px;
+  width: 100%;
+  display: block;
+  margin-top: 10px !important;
+  font-weight: 500;
+}
+
+.main_form .send_btn:hover {
+  background-color: #2a2b2a;
+  transition: ease-in all 0.5s;
+  color: #fff;
+}
+
+#request *::placeholder {
+  color: #989696;
+  opacity: 1;
+}
+
+
+/** end contact section **/
