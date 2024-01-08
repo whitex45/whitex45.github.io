@@ -534,7 +534,6 @@ body {
 
 .site-navbar .site-navigation .site-menu > li > a:hover {
   font-weight:600;
-  /*font-size:15px;*/
 }
 
 .site-navbar .site-navigation .site-menu > li > a img.icono-movil {
@@ -1095,8 +1094,8 @@ body {
 
 
 .box-titulo-emprendimientos-h-contacto h2{font-size:26px; font-weight:600; color:#918877; letter-spacing:10px;}
-.box-titulo-emprendimientos-h .tt-emp{font-size:26px; font-weight:600; color:#918877; letter-spacing:10px;}
-.border-titulo{background:#726851; display:inline-block;  text-align:center; margin:20px auto; clear:both; width:25%; height:1px; opacity:0.3;}
+.box-titulo-emprendimientos-h .tt-emp{font-size:26px; font-weight:600; color:#1b853b; letter-spacing:10px;}
+.border-titulo{background:#1b853b; display:inline-block;  text-align:center; margin:20px auto; clear:both; width:25%; height:1px; opacity:0.3;}
 
 .box-titulo-emprendimientos-h-contacto .border-titulo{width:25%;}
 
