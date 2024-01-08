@@ -5,11 +5,9 @@
     stroke-dasharray: 534;
     transition: stroke-dashoffset 1s;
     -webkit-animation-play-state: running;
-    /* firefox bug fix - won't rotate at 90deg angles */
     -moz-transform: rotate(-89deg) translateX(-190px);
 }
 
-/* full circle 25 empty 534 */
 .circliful .inner {
     fill: transparent;
     stroke: orange;
@@ -17,7 +15,6 @@
     stroke-dasharray: 534;
     transition: stroke-dashoffset 1s;
     -webkit-animation-play-state: running;
-    /* firefox bug fix - won't rotate at 90deg angles */
     -moz-transform: rotate(-89deg) translateX(-190px);
     stroke-dashoffset: 0;
 }
