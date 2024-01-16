@@ -1,60 +1,6 @@
-/* AVANCES */
-
-.textbox {
-    height: 700px;
-}
-
-/* line 12, ../sass/component/_avances.scss */
-.progress {
-    margin-bottom: 5px;
-    height: 20px;
-    display: block;
-
-}
-
-/* line 16, ../sass/component/_avances.scss */
-.progress-bar {
-    width: 0;
-    font-size: 16px;
-    line-height: 20px;
-    float: left;
-    background-color: #337ab7;
-    justify-content: left;
-
-}
-
-/* line 20, ../sass/component/_avances.scss */
-.porcentaje-avance {
-    display: inline-block;
-    width: 50%;
-    margin-left: 5%;
-    text-align: center;
-}
-
-/* line 21, ../sass/component/_avances.scss */
-.foto-avance {
-    display: inline-block;
-    width: 45%;
-    right: 0;
-    margin-top: 10px;
-    text-align: right;
-    max-height: 500px;
-    overflow: hidden;
-}
-
-
 /* DEPARTAMENTOS /*
 
-/* line 11, ../sass/component/_listado.scss */
-.columna-planos {
-    width: 35%;
-    padding-left: 5%;
-    display: inline-block;
-    text-align: left;
-    vertical-align: middle;
-}
-
-/* line 12, ../sass/component/_listado.scss */
+/**/
 .columna-datos {
     width: 55%;
     padding-right: 5%;
