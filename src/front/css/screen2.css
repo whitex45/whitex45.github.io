@@ -12,7 +12,7 @@
 .button {
     display: inline-block;
     padding: 0.5em 1.0em;
-    border: 1px solid #AA9F88;;
+    border: 1px solid #1b853b;;
     background: none;
     border-radius: 7px;
     color: #979797;
@@ -23,13 +23,13 @@
 }
 
 .button:hover {
-    background-color: #979797;
+    background-color: #899288;
     color: #FFF;
 }
 
 .button:active,
 .button.is-checked {
-    background-color: #AA9F88;
+    background-color: #1b853b;
     color: #FFF;
 }
 
