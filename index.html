@@ -844,7 +844,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         
                         if (isMobile) {
                             // Para móviles, utilizar el esquema whatsapp://
-                            var whatsappUrl = "whatsapp://send?phone=" + phoneNumber + "&text=" + encodeURIComponent(message);
+                            var whatsappUrl = "https://wa.me/" + phoneNumber + "&text=" + encodeURIComponent(message);
                         } else {
                             // Para escritorio, utilizar la versión web de WhatsApp
                             var whatsappUrl = "https://web.whatsapp.com/send?phone=" + phoneNumber + "&text=" + encodeURIComponent(message);
