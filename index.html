@@ -799,6 +799,55 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                          </form>
                                       </div>
             </section>
+
+            <head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <title>Chat en WhatsApp</title>
+                <style>
+                    .whatsapp-button {
+                        position: fixed;
+                        bottom: 20px;
+                        right: 20px;
+                        background-color: #25D366;
+                        color: white;
+                        border: none;
+                        padding: 15px;
+                        border-radius: 50%;
+                        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+                        cursor: pointer;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+            
+                    .whatsapp-button img {
+                        width: 40px; /* Ajusta el tamaño de la imagen */
+                        height: 40px;
+                    }
+                </style>
+            </head>
+            <body>
+            
+                <!-- Botón de WhatsApp con imagen personalizada -->
+                <button class="whatsapp-button" id="whatsapp-button">
+                    <img src="images/WhatsApp_icon.png" alt="WhatsApp Chat"> <!-- Reemplaza con la ruta de tu imagen -->
+                </button>
+            
+                <script>
+                    document.getElementById('whatsapp-button').addEventListener('click', function() {
+                        var phoneNumber = "3537446814"; // Reemplaza con tu número
+                        var message = "Hola, me gustaría saber más información";
+                        var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+                        var url = isMobile 
+                            ? "whatsapp://send?phone=" + phoneNumber + "&text=" + encodeURIComponent(message) 
+                            : "https://web.whatsapp.com/send?phone=" + phoneNumber + "&text=" + encodeURIComponent(message);
+                        
+                        window.open(url, '_blank');
+                    });
+                </script>
+            
+            </body>
 		
 
 	
