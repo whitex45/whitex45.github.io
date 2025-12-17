@@ -3122,5 +3122,35 @@ div#cloudy-horizontal-container.flex-container .telefono-prefijo{color: #53575A 
   opacity: 1;
 }
 
+.section-titulo-seccion {
+  background: #53575A;
+  color: #fff;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 2px;
+  font-size: 20px;
+}
+
+.contacto-directo {
+  background: #fff;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.08);
+}
+
+.contacto-item {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+.contacto-item i {
+  color: #978A6E;
+  font-size: 22px;
+}
 
 /** end contact section **/
