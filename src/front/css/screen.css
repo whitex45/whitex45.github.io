@@ -3138,19 +3138,58 @@ div#cloudy-horizontal-container.flex-container .telefono-prefijo{color: #53575A 
   padding: 40px;
   border-radius: 16px;
   box-shadow: 0 10px 30px rgba(0,0,0,.08);
+  font-family: monospace, monospace; /* o la fuente que quieras */
+  font-size: 20px;
+  font-weight: 600; /* opcional */
 }
 
 .contacto-item {
   display: flex;
   align-items: center;
-  gap: 15px;
-  margin-bottom: 20px;
-  font-size: 18px;
+  gap: 6px; /* ícono pegado al texto */
+  margin: 6px 0; /* separa una línea de la otra */
 }
 
 .contacto-item i {
   color: #978A6E;
   font-size: 22px;
+}
+
+@media (max-width: 991px) {
+  #sectionUbicacion .section-titulo-seccion {
+    display: none;
+  }
+}
+
+.titulo-mobile {
+  display: none;
+}
+
+@media (max-width: 991px) {
+  .titulo-mobile {
+    display: block;
+    width: 100%;
+    background: #53575A;
+    color: #fff;
+    text-align: center;
+    padding: 22px 0;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+}
+
+.icono-contacto {
+  width: 35px;
+  height: auto;
+  display: inline-block;
+  margin: 0; /* quita espacios fantasmas */
+}
+
+.contacto-item span {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1; /* evita salto vertical */
 }
 
 /** end contact section **/
