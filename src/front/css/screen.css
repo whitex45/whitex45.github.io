@@ -3149,8 +3149,32 @@ div#cloudy-horizontal-container.flex-container .telefono-prefijo{color: #53575A 
 }
 
 .contacto-item i {
-  color: #978A6E;
+  color: #ffffff;
   font-size: 22px;
+}
+
+.brochure-section {
+  width: 100%;
+  background: #f5f5f5;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.btn-brochure {
+  display: inline-block;
+  padding: 14px 32px;
+  background-color: #6f736d; /* gris elegante como tus títulos */
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 30px;
+  transition: all 0.3s ease;
+}
+
+.btn-brochure:hover {
+  background-color: #4f524d;
+  transform: translateY(-2px);
 }
 
 /** end contact section **/
